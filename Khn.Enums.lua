@@ -196,7 +196,8 @@ SpellFlags = {
     Spell = "IsSpell",
     Attack = "Attack",
     IsSwarmAttack = "IsSwarmAttack",
-    Verbal = "Verbal"
+    Verbal = "Verbal",
+    Trap = "Trap"
 }
 
 --- @enum KhnSpellType

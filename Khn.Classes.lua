@@ -13,7 +13,7 @@
 --- @field Difficulty KhnInteger
 --- @field NaturalRoll KhnInteger
 --- @field Total KhnInteger
---- @field RollType {name:string, value:KhnInteger} --can possibly be mapped but didn't see an example of its enum
+--- @field RollType {name:KhnConditionRollType, value:KhnInteger} --can possibly be mapped but didn't see an example of its enum
 --- @field Ability {name:KhnAbility, value:KhnInteger}
 --- @field RollCritical {name:RollCritical, value:KhnInteger}
 --- @field AdvantageState {name:AdvantageState, value:KhnInteger} 

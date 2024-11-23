@@ -71,7 +71,7 @@ function CanHarm(target, source) end
 ---@param target Khn_Entity
 function Locked(target) end
 
----@overload fun():Khn_ConditionResult
+---@overload fun():Khn_ConditionResult --defaults to context.Target
 ---@param target Khn_Entity
 ---@return Khn_ConditionResult
 function Combat(target) end
